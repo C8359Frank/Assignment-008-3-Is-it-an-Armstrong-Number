@@ -1,0 +1,13 @@
+sayı=int(input("Enter any positive number:"))
+basamak=str(sayı)
+armtoplam=0
+for i in basamak:
+    i=int(i)
+    armtoplam=armtoplam+i**len(basamak)
+
+if armtoplam==sayı:
+    print("girdiğiniz armstrong'dur")
+# elif sayı < 1:
+    # print("not valid entry")
+else:
+    print("girdiğiniz armstrong değildir")
