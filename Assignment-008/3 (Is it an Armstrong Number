@@ -1,7 +1,4 @@
-# Amstrong Sayısı
-print("***********************************************")
-print("Amstrong Sayısı Bulma Programına Hoşgeldiniz...")
-print("***********************************************\n")
+# Amstrong Sayısı Bulma Programı
 while True:
   amstrong_sayisi = input ('Bir sayı giriniz... ')
   if not amstrong_sayisi.strip().lstrip('+-').isdigit():
@@ -9,7 +6,7 @@ while True:
   elif int (amstrong_sayisi)<0 :
       print("Negatif sayı giremezsiniz...\n")
   elif int (amstrong_sayisi)==0:
-      print("Şaka mı bu, sıfır tabiki Amstrong sayısı. Tekrar deneyin...\n")
+      print("sıfır tabiki Amstrong sayısı. Tekrar deneyin...\n")
   else:
       new_amstrong = 0
       for i in amstrong_sayisi:
