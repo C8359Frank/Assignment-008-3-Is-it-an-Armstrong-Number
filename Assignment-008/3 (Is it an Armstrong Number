@@ -12,7 +12,7 @@ while True:
       for i in armstrong_sayisi:
          new_armstrong += pow(int(i), len(armstrong_sayisi))
       if new_armstrong == int(armstrong_sayisi):
-        print(armstrong_sayisi, "bir Armstron sayısıdır.")
+        print(armstrong_sayisi, "bir Armstrong sayısıdır.")
       else:
-         print("Ne yazıkki, armstrong_sayisi, "bir Armsatron sayısı değildir.")
+         print("Ne yazıkki, armstrong_sayisi, "bir Armstrong sayısı değildir.")
       break
