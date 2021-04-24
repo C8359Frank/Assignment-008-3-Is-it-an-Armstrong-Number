@@ -14,5 +14,5 @@ while True:
       if new_armstrong == int(armstrong_sayisi):
         print(armstrong_sayisi, "bir Armstron sayısıdır.")
       else:
-         print("Malesef", armstrong_sayisi, "bir Armsatron sayısı değildir.")
+         print("Ne yazıkki, armstrong_sayisi, "bir Armsatron sayısı değildir.")
       break
