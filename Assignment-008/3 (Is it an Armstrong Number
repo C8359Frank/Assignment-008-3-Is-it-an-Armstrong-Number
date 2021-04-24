@@ -1,18 +1,18 @@
-# Amstrong Sayısı Bulma Programı
+# Armstrong Sayısı Bulma Programı
 while True:
-  amstrong_sayisi = input ('Bir sayı giriniz... ')
-  if not amstrong_sayisi.strip().lstrip('+-').isdigit():
-    print (amstrong_sayisi, 'bir sayı değildir.\n')
-  elif int (amstrong_sayisi)<0 :
+  armstrong_sayisi = input ('Bir sayı giriniz... ')
+  if not armstrong_sayisi.strip().lstrip('+-').isdigit():
+    print (armstrong_sayisi, 'bir sayı değildir.\n')
+  elif int (armstrong_sayisi)<0 :
       print("Negatif sayı giremezsiniz...\n")
-  elif int (amstrong_sayisi)==0:
-      print("sıfır tabiki Amstrong sayısı. Tekrar deneyin...\n")
+  elif int (armstrong_sayisi)==0:
+      print("sıfır tabiki Armstrong sayısı. Tekrar deneyin...\n")
   else:
-      new_amstrong = 0
-      for i in amstrong_sayisi:
-         new_amstrong += pow(int(i), len(amstrong_sayisi))
-      if new_amstrong == int(amstrong_sayisi):
-        print(amstrong_sayisi, "bir Amstron sayısıdır.")
+      new_armstrong = 0
+      for i in armstrong_sayisi:
+         new_armstrong += pow(int(i), len(armstrong_sayisi))
+      if new_armstrong == int(armstrong_sayisi):
+        print(armstrong_sayisi, "bir Armstron sayısıdır.")
       else:
-         print("Malesef", amstrong_sayisi, "bir Amsatron sayısı değildir.")
+         print("Malesef", armstrong_sayisi, "bir Armsatron sayısı değildir.")
       break
